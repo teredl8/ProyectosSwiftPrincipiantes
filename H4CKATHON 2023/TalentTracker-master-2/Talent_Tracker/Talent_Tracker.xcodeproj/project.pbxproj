@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF41C4E12A0DC240002CDBCF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41C4E02A0DC240002CDBCF /* LoginViewController.swift */; };
+		AF41C4E32A0DC585002CDBCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF41C4E22A0DC585002CDBCF /* GoogleService-Info.plist */; };
+		AF41C4E62A0DC775002CDBCF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF41C4E52A0DC775002CDBCF /* FirebaseAuth */; };
+		AF41C4E82A0DCA20002CDBCF /* L2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41C4E72A0DCA20002CDBCF /* L2ViewController.swift */; };
+		AFDA5F882A0D57E300321030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5F872A0D57E300321030 /* AppDelegate.swift */; };
+		AFDA5F8A2A0D57E300321030 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5F892A0D57E300321030 /* SceneDelegate.swift */; };
+		AFDA5F8C2A0D57E300321030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5F8B2A0D57E300321030 /* ViewController.swift */; };
+		AFDA5F8F2A0D57E300321030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDA5F8D2A0D57E300321030 /* Main.storyboard */; };
+		AFDA5F922A0D57E300321030 /* Talent_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5F902A0D57E300321030 /* Talent_Tracker.xcdatamodeld */; };
+		AFDA5F942A0D57E400321030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDA5F932A0D57E400321030 /* Assets.xcassets */; };
+		AFDA5F972A0D57E400321030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDA5F952A0D57E400321030 /* LaunchScreen.storyboard */; };
+		AFDA5FA22A0D57E400321030 /* Talent_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5FA12A0D57E400321030 /* Talent_TrackerTests.swift */; };
+		AFDA5FAC2A0D57E400321030 /* Talent_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5FAB2A0D57E400321030 /* Talent_TrackerUITests.swift */; };
+		AFDA5FAE2A0D57E400321030 /* Talent_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA5FAD2A0D57E400321030 /* Talent_TrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFDA5F9E2A0D57E400321030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDA5F7C2A0D57E300321030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDA5F832A0D57E300321030;
+			remoteInfo = Talent_Tracker;
+		};
+		AFDA5FA82A0D57E400321030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDA5F7C2A0D57E300321030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDA5F832A0D57E300321030;
+			remoteInfo = Talent_Tracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF41C4E02A0DC240002CDBCF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF41C4E22A0DC585002CDBCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF41C4E72A0DCA20002CDBCF /* L2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2ViewController.swift; sourceTree = "<group>"; };
+		AFDA5F842A0D57E300321030 /* Talent_Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talent_Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA5F872A0D57E300321030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFDA5F892A0D57E300321030 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFDA5F8B2A0D57E300321030 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFDA5F8E2A0D57E300321030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFDA5F912A0D57E300321030 /* Talent_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Talent_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		AFDA5F932A0D57E400321030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFDA5F962A0D57E400321030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFDA5F982A0D57E400321030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDA5F9D2A0D57E400321030 /* Talent_TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Talent_TrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA5FA12A0D57E400321030 /* Talent_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talent_TrackerTests.swift; sourceTree = "<group>"; };
+		AFDA5FA72A0D57E400321030 /* Talent_TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Talent_TrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA5FAB2A0D57E400321030 /* Talent_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talent_TrackerUITests.swift; sourceTree = "<group>"; };
+		AFDA5FAD2A0D57E400321030 /* Talent_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talent_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDA5F812A0D57E300321030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF41C4E62A0DC775002CDBCF /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA5F9A2A0D57E400321030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA5FA42A0D57E400321030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDA5F7B2A0D57E300321030 = {
+			isa = PBXGroup;
+			children = (
+				AFDA5F862A0D57E300321030 /* Talent_Tracker */,
+				AFDA5FA02A0D57E400321030 /* Talent_TrackerTests */,
+				AFDA5FAA2A0D57E400321030 /* Talent_TrackerUITests */,
+				AFDA5F852A0D57E300321030 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDA5F852A0D57E300321030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA5F842A0D57E300321030 /* Talent_Tracker.app */,
+				AFDA5F9D2A0D57E400321030 /* Talent_TrackerTests.xctest */,
+				AFDA5FA72A0D57E400321030 /* Talent_TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDA5F862A0D57E300321030 /* Talent_Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				AF41C4E02A0DC240002CDBCF /* LoginViewController.swift */,
+				AF41C4E72A0DCA20002CDBCF /* L2ViewController.swift */,
+				AFDA5F872A0D57E300321030 /* AppDelegate.swift */,
+				AFDA5F892A0D57E300321030 /* SceneDelegate.swift */,
+				AFDA5F8B2A0D57E300321030 /* ViewController.swift */,
+				AFDA5F8D2A0D57E300321030 /* Main.storyboard */,
+				AFDA5F932A0D57E400321030 /* Assets.xcassets */,
+				AFDA5F952A0D57E400321030 /* LaunchScreen.storyboard */,
+				AFDA5F982A0D57E400321030 /* Info.plist */,
+				AFDA5F902A0D57E300321030 /* Talent_Tracker.xcdatamodeld */,
+				AF41C4E22A0DC585002CDBCF /* GoogleService-Info.plist */,
+			);
+			path = Talent_Tracker;
+			sourceTree = "<group>";
+		};
+		AFDA5FA02A0D57E400321030 /* Talent_TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA5FA12A0D57E400321030 /* Talent_TrackerTests.swift */,
+			);
+			path = Talent_TrackerTests;
+			sourceTree = "<group>";
+		};
+		AFDA5FAA2A0D57E400321030 /* Talent_TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA5FAB2A0D57E400321030 /* Talent_TrackerUITests.swift */,
+				AFDA5FAD2A0D57E400321030 /* Talent_TrackerUITestsLaunchTests.swift */,
+			);
+			path = Talent_TrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDA5F832A0D57E300321030 /* Talent_Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA5FB12A0D57E400321030 /* Build configuration list for PBXNativeTarget "Talent_Tracker" */;
+			buildPhases = (
+				AFDA5F802A0D57E300321030 /* Sources */,
+				AFDA5F812A0D57E300321030 /* Frameworks */,
+				AFDA5F822A0D57E300321030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Talent_Tracker;
+			packageProductDependencies = (
+				AF41C4E52A0DC775002CDBCF /* FirebaseAuth */,
+			);
+			productName = Talent_Tracker;
+			productReference = AFDA5F842A0D57E300321030 /* Talent_Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFDA5F9C2A0D57E400321030 /* Talent_TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA5FB42A0D57E400321030 /* Build configuration list for PBXNativeTarget "Talent_TrackerTests" */;
+			buildPhases = (
+				AFDA5F992A0D57E400321030 /* Sources */,
+				AFDA5F9A2A0D57E400321030 /* Frameworks */,
+				AFDA5F9B2A0D57E400321030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDA5F9F2A0D57E400321030 /* PBXTargetDependency */,
+			);
+			name = Talent_TrackerTests;
+			productName = Talent_TrackerTests;
+			productReference = AFDA5F9D2A0D57E400321030 /* Talent_TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFDA5FA62A0D57E400321030 /* Talent_TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA5FB72A0D57E400321030 /* Build configuration list for PBXNativeTarget "Talent_TrackerUITests" */;
+			buildPhases = (
+				AFDA5FA32A0D57E400321030 /* Sources */,
+				AFDA5FA42A0D57E400321030 /* Frameworks */,
+				AFDA5FA52A0D57E400321030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDA5FA92A0D57E400321030 /* PBXTargetDependency */,
+			);
+			name = Talent_TrackerUITests;
+			productName = Talent_TrackerUITests;
+			productReference = AFDA5FA72A0D57E400321030 /* Talent_TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDA5F7C2A0D57E300321030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AFDA5F832A0D57E300321030 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AFDA5F9C2A0D57E400321030 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AFDA5F832A0D57E300321030;
+					};
+					AFDA5FA62A0D57E400321030 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AFDA5F832A0D57E300321030;
+					};
+				};
+			};
+			buildConfigurationList = AFDA5F7F2A0D57E300321030 /* Build configuration list for PBXProject "Talent_Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFDA5F7B2A0D57E300321030;
+			packageReferences = (
+				AF41C4E42A0DC775002CDBCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = AFDA5F852A0D57E300321030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDA5F832A0D57E300321030 /* Talent_Tracker */,
+				AFDA5F9C2A0D57E400321030 /* Talent_TrackerTests */,
+				AFDA5FA62A0D57E400321030 /* Talent_TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDA5F822A0D57E300321030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA5F972A0D57E400321030 /* LaunchScreen.storyboard in Resources */,
+				AF41C4E32A0DC585002CDBCF /* GoogleService-Info.plist in Resources */,
+				AFDA5F942A0D57E400321030 /* Assets.xcassets in Resources */,
+				AFDA5F8F2A0D57E300321030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA5F9B2A0D57E400321030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA5FA52A0D57E400321030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDA5F802A0D57E300321030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA5F8C2A0D57E300321030 /* ViewController.swift in Sources */,
+				AFDA5F882A0D57E300321030 /* AppDelegate.swift in Sources */,
+				AFDA5F922A0D57E300321030 /* Talent_Tracker.xcdatamodeld in Sources */,
+				AF41C4E12A0DC240002CDBCF /* LoginViewController.swift in Sources */,
+				AF41C4E82A0DCA20002CDBCF /* L2ViewController.swift in Sources */,
+				AFDA5F8A2A0D57E300321030 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA5F992A0D57E400321030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA5FA22A0D57E400321030 /* Talent_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA5FA32A0D57E400321030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA5FAC2A0D57E400321030 /* Talent_TrackerUITests.swift in Sources */,
+				AFDA5FAE2A0D57E400321030 /* Talent_TrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFDA5F9F2A0D57E400321030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDA5F832A0D57E300321030 /* Talent_Tracker */;
+			targetProxy = AFDA5F9E2A0D57E400321030 /* PBXContainerItemProxy */;
+		};
+		AFDA5FA92A0D57E400321030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDA5F832A0D57E300321030 /* Talent_Tracker */;
+			targetProxy = AFDA5FA82A0D57E400321030 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFDA5F8D2A0D57E300321030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDA5F8E2A0D57E300321030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFDA5F952A0D57E400321030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDA5F962A0D57E400321030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFDA5FAF2A0D57E400321030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFDA5FB02A0D57E400321030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDA5FB22A0D57E400321030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Talent_Tracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saram.Talent-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFDA5FB32A0D57E400321030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Talent_Tracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saram.Talent-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFDA5FB52A0D57E400321030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saram.Talent-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talent_Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Talent_Tracker";
+			};
+			name = Debug;
+		};
+		AFDA5FB62A0D57E400321030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saram.Talent-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Talent_Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Talent_Tracker";
+			};
+			name = Release;
+		};
+		AFDA5FB82A0D57E400321030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saram.Talent-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Talent_Tracker;
+			};
+			name = Debug;
+		};
+		AFDA5FB92A0D57E400321030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BY9RQP8PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saram.Talent-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Talent_Tracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDA5F7F2A0D57E300321030 /* Build configuration list for PBXProject "Talent_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA5FAF2A0D57E400321030 /* Debug */,
+				AFDA5FB02A0D57E400321030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA5FB12A0D57E400321030 /* Build configuration list for PBXNativeTarget "Talent_Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA5FB22A0D57E400321030 /* Debug */,
+				AFDA5FB32A0D57E400321030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA5FB42A0D57E400321030 /* Build configuration list for PBXNativeTarget "Talent_TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA5FB52A0D57E400321030 /* Debug */,
+				AFDA5FB62A0D57E400321030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA5FB72A0D57E400321030 /* Build configuration list for PBXNativeTarget "Talent_TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA5FB82A0D57E400321030 /* Debug */,
+				AFDA5FB92A0D57E400321030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF41C4E42A0DC775002CDBCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF41C4E52A0DC775002CDBCF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF41C4E42A0DC775002CDBCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		AFDA5F902A0D57E300321030 /* Talent_Tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFDA5F912A0D57E300321030 /* Talent_Tracker.xcdatamodel */,
+			);
+			currentVersion = AFDA5F912A0D57E300321030 /* Talent_Tracker.xcdatamodel */;
+			path = Talent_Tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFDA5F7C2A0D57E300321030 /* Project object */;
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gSY-D4-j0q">
+            <objects>
+                <viewController id="zrU-uc-L0Z" customClass="ViewController" customModule="Vistas_proyecto_H" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i0n-5p-Llk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="d5s-8Y-x5A">
+                                <rect key="frame" x="10" y="69" width="373" height="739"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="R4h-HJ-gA6">
+                                        <rect key="frame" x="0.0" y="50" width="373" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="R4h-HJ-gA6" id="hDN-p1-T3r">
+                                            <rect key="frame" x="0.0" y="0.0" width="373" height="131"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="m2H-Sa-J5q">
+                                                    <rect key="frame" x="10" y="5" width="250" height="121"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puesto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOx-wG-RQV">
+                                                            <rect key="frame" x="0.0" y="0.0" width="250" height="25"/>
+                                                            <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                                            <color key="textColor" red="0.278660458" green="0.559432508" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sueldo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tov-G0-RaG">
+                                                            <rect key="frame" x="0.0" y="32" width="250" height="25"/>
+                                                            <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Urh-79-1Wn">
+                                                            <rect key="frame" x="0.0" y="64" width="250" height="25"/>
+                                                            <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lugar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwz-GL-uYo">
+                                                            <rect key="frame" x="0.0" y="96" width="250" height="25"/>
+                                                            <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="Hf2-cX-xTX"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRA-LC-5ai">
+                                                    <rect key="frame" x="266" y="43" width="100" height="45"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="45" id="90r-6N-DgW"/>
+                                                        <constraint firstAttribute="width" constant="100" id="da9-eF-x7v"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="filled" title="Aplicar">
+                                                        <color key="baseBackgroundColor" red="0.278660458" green="0.559432508" blue="0.66274511810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="HRA-LC-5ai" secondAttribute="trailing" constant="7" id="Ej5-T3-vGu"/>
+                                                <constraint firstItem="HRA-LC-5ai" firstAttribute="centerY" secondItem="hDN-p1-T3r" secondAttribute="centerY" id="Tzb-sV-rdV"/>
+                                                <constraint firstAttribute="bottom" secondItem="m2H-Sa-J5q" secondAttribute="bottom" constant="5" id="aOa-OT-WjN"/>
+                                                <constraint firstItem="m2H-Sa-J5q" firstAttribute="top" secondItem="hDN-p1-T3r" secondAttribute="top" constant="5" id="ekL-W0-bW6"/>
+                                                <constraint firstItem="m2H-Sa-J5q" firstAttribute="leading" secondItem="hDN-p1-T3r" secondAttribute="leading" constant="10" id="uE4-Q7-Oil"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GDf-Ga-8Xw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GDf-Ga-8Xw" firstAttribute="trailing" secondItem="d5s-8Y-x5A" secondAttribute="trailing" constant="10" id="3Oq-fz-5IJ"/>
+                            <constraint firstItem="d5s-8Y-x5A" firstAttribute="top" secondItem="GDf-Ga-8Xw" secondAttribute="top" constant="10" id="AtW-Uu-Pvn"/>
+                            <constraint firstItem="d5s-8Y-x5A" firstAttribute="leading" secondItem="GDf-Ga-8Xw" secondAttribute="leading" constant="10" id="mZH-c8-oYm"/>
+                            <constraint firstItem="GDf-Ga-8Xw" firstAttribute="bottom" secondItem="d5s-8Y-x5A" secondAttribute="bottom" constant="10" id="oUk-OV-Phg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sHP-so-NGY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jmt-np-DKC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="488" y="-142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

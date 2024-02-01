@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Alumno" representedClassName="Alumno" syncable="YES" codeGenerationType="class">
+        <attribute name="apellido_materno" optional="YES" attributeType="String"/>
+        <attribute name="apellido_paterno" optional="YES" attributeType="String"/>
+        <attribute name="asignatura" optional="YES" attributeType="String"/>
+        <attribute name="carrera" optional="YES" attributeType="String"/>
+        <attribute name="credencial_atras" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="credencial_frente" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="facultad" optional="YES" attributeType="String"/>
+        <attribute name="firma" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="grupo" optional="YES" attributeType="Decimal" defaultValueString="0"/>
+        <attribute name="id_alumno" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="numero_cuenta" optional="YES" attributeType="String"/>
+        <relationship name="alumno_prestamos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Prestamo" inverseName="prestamo_alumno" inverseEntity="Prestamo"/>
+    </entity>
+    <entity name="Prestamo" representedClassName="Prestamo" syncable="YES" codeGenerationType="class">
+        <attribute name="equipo" optional="YES" attributeType="String"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id_prestamo" optional="YES" attributeType="String"/>
+        <attribute name="numero" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="prestamo_alumno" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Alumno" inverseName="alumno_prestamos" inverseEntity="Alumno"/>
+    </entity>
+    <elements>
+        <element name="Alumno" positionX="-622.302734375" positionY="78.4168701171875" width="128" height="224"/>
+        <element name="Prestamo" positionX="-297.5177001953125" positionY="83.76812744140625" width="128" height="103"/>
+    </elements>
+</model>

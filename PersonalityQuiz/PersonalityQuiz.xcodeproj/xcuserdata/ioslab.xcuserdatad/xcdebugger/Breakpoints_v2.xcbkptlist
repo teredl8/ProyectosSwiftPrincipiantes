@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2B939CFF-970F-482A-B5C2-384D43FBAF85"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B3DED7B-BACE-4F33-89F1-36DCB2A33C3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PersonalityQuiz/QuestionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "QuestionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5B3DED7B-BACE-4F33-89F1-36DCB2A33C3E - f84024956dec421d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuestionViewController.singleButton3.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab/Documents/Servicio%20Social%20/PersonalityQuiz/PersonalityQuiz/QuestionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "5B3DED7B-BACE-4F33-89F1-36DCB2A33C3E - e54f95786362f261"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuestionViewController.singleButton3.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab/Documents/Servicio%20Social%20/PersonalityQuiz/PersonalityQuiz/QuestionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "5B3DED7B-BACE-4F33-89F1-36DCB2A33C3E - b023440417c3e610"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuestionViewController.singleButton3.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab/Documents/Servicio%20Social%20/PersonalityQuiz/PersonalityQuiz/QuestionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5B3DED7B-BACE-4F33-89F1-36DCB2A33C3E - b46991bfed40dd26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuestionViewController.singleButton3.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab/Documents/Servicio%20Social%20/PersonalityQuiz/PersonalityQuiz/QuestionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "5B3DED7B-BACE-4F33-89F1-36DCB2A33C3E - ae37bb1ad441275e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuestionViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PersonalityQuiz.QuestionViewController"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab/Documents/Servicio%20Social%20/PersonalityQuiz/PersonalityQuiz/QuestionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "449">
+               </Location>
+               <Location
+                  uuid = "5B3DED7B-BACE-4F33-89F1-36DCB2A33C3E - f1522e6de8e23d60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuestionViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PersonalityQuiz.QuestionViewController&gt;"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ioslab/Documents/Servicio%20Social%20/PersonalityQuiz/PersonalityQuiz/QuestionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "397">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CE330B1-22F2-4272-966D-7B7EB2E84C45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PersonalityQuiz/QuestionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "QuestionViewController"
+            landmarkType = "3">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
